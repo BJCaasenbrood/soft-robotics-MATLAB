@@ -17,4 +17,6 @@ IncludeBaseVelocity = false;
 ```
 
 * update the ODE in **simulateDynamics.m** to the desired dynamic model (line 107 - 130). If you use a 2-dof model, be aware of the model dimension and thus the code requires some changes! 
-* enable *ShowSimulation* in **simulateDynamics.m**, to preview a real-time deformation render.
+* run **simulateDynamics.m**.
+
+* (optional) enable *ShowSimulation* in **simulateDynamics.m**, to preview a real-time deformation render.
