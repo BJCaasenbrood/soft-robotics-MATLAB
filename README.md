@@ -17,5 +17,5 @@ LinearStiffnessFunc = false;
 IncludeBaseVelocity = false;
 ```
 
-* update the ODE in **simulateDynamics.m** to the desired dynamic model (line 107 - 130). If you use a 2D model, be aware of the state dimension and thus this requires some changes. 
+* update the ODE in **simulateDynamics.m** to the desired dynamic model (line 107 - 130). If you use a 2-dof model, be aware of the model dimension and thus the code requires some changes! 
 * enable *ShowSimulation* in **simulateDynamics.m**, to preview a real-time deformation render.
