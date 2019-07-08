@@ -210,13 +210,13 @@ syms d1 d2 d3 dk eta
 print('forming viscous force vector F(q)');
 if ~LinearDampingFunc
 Fd = int((d1 + d2*(tanh(d3*eta)^2 - 1))*eta,eta,0,dk);
-else, Fd = 0.5*d1*dl^2;
+else, Fd = 0.5*d1*dl^2 + 0.5*db*dkx^2 + 0.5*d1*dky^2;
 end
 
 if ~NeglectExtensible && ~PlanarDynamics
-F = [de*dl; subs(diff(Fd,dk),dk,dkx); subs(diff(Fd,dk),dk,dky)];
+F = [de*dl; db*dkx; db*dky];
 else
-F = [subs(diff(Fd,dk),dk,dkx); subs(diff(Fd,dk),dk,dky)];
+F = [db*dkx; db*dky];
 end
 %F = [de*dl;d1*kx];
 
