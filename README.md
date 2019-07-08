@@ -1,5 +1,6 @@
 # Soft Robotics MATLAB 
 
+![Amplifier Layout](https://cdn.sparkfun.com/assets/parts/1/0/3/9/5/13230-01.jpg)
 
 Soft robotics is a relatively new field of robotics with promising future applications. Yet, regarding traditional robotics, the field of soft robotics is still in the state of inception, 
 especially regarding modeling and control. Here, we (freely) offer code from MATLAB to model and simulate a soft robot manipulator. To use the provided MATLAB code, follow the steps below
