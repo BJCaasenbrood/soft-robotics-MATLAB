@@ -1,4 +1,4 @@
-# Soft robotics: Modeling and Simulation for MATLAB 
+#  Dynamic modeling of Soft Robots for MATLAB 
 
 Soft robotics is a relatively new field of robotics with promising future applications. Yet, regarding traditional robotics, the field of soft robotics is still stages of inception, especially regarding modeling, control. Here, we (freely) offer code from MATLAB to model and simulate a soft robot manipulator. To use the provided MATLAB code, follow the steps below
 
