@@ -19,3 +19,6 @@ IncludeBaseVelocity = false;
 * run **simulateDynamics.m**.
 
 * (optional) enable *ShowSimulation* in **simulateDynamics.m**, to preview a real-time deformation render.
+
+
+Paper: [10.1016/j.ifacol.2020.12.2209](10.1016/j.ifacol.2020.12.2209)
