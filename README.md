@@ -1,6 +1,6 @@
 #  Dynamic modeling of Soft Robots for MATLAB 
 
-## THIS MODEL IS OUT-DATED! Please check the following link:
+## THIS CODE IS OUT-DATED! Please check the following link:
 
 [https://github.com/BJCaasenbrood/soft-robot-model-MATLAB](http://dx.doi.org/10.1016/j.ifacol.2020.12.2209)
 
